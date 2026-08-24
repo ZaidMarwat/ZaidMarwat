@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img"
+     aria-label="Terminal session. whoami: Zaid Marwat, CS at UT Austin, graduating May 2027. Focus: virtualization, distributed systems, the layer underneath. Proof: US patent US20240085134A1, Podman PR 27778, a published journal article.">
+<style>
+  text { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+          font-size: 14.5px; white-space: pre; }
+  .w0{animation:type0 11.0s linear infinite}
+  @keyframes type0{0%,3.64%{width:0;animation-timing-function:steps(8)}7.27%,100%{width:70.4px}}
+  .w1{animation:type1 11.0s linear infinite}
+  @keyframes type1{0%,9.55%{width:0;animation-timing-function:ease-out}12.09%,100%{width:463.7px}}
+  .w2{animation:type2 11.0s linear infinite}
+  @keyframes type2{0%,14.55%{width:0;animation-timing-function:steps(15)}21.36%,100%{width:130.2px}}
+  .w3{animation:type3 11.0s linear infinite}
+  @keyframes type3{0%,23.18%{width:0;animation-timing-function:ease-out}25.73%,100%{width:506.5px}}
+  .w4{animation:type4 11.0s linear infinite}
+  @keyframes type4{0%,28.64%{width:0;animation-timing-function:steps(11)}33.64%,100%{width:96.1px}}
+  .w5{animation:type5 11.0s linear infinite}
+  @keyframes type5{0%,35.91%{width:0;animation-timing-function:ease-out}38.45%,100%{width:515.0px}}
+  .cur{animation:blink 1.06s steps(1) infinite}
+  @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after { animation: none !important; }
+    rect[class^="w"] { width: 720px !important; }
+  }
+</style>
+<rect width="760" height="260" rx="10" fill="#1d2021"/>
+<path d="M0 10a10 10 0 0 1 10-10h740a10 10 0 0 1 10 10v28H0z" fill="#282828"/>
+<line x1="0" y1="38" x2="760" y2="38" stroke="#3c3836"/>
+<circle cx="22" cy="19" r="5.5" fill="#cc241d"/><circle cx="41" cy="19" r="5.5" fill="#d79921"/><circle cx="60" cy="19" r="5.5" fill="#b8bb26"/>
+<text x="82" y="24" fill="#928374" font-size="12.5">zaid@utaustin: ~</text>
+<clipPath id="c0"><rect class="w0" x="22" y="59.5" width="0" height="26"/></clipPath>
+<text class="t0" x="22" y="74" clip-path="url(#c0)" fill="#b8bb26" textLength="68.4" lengthAdjust="spacingAndGlyphs">$ whoami</text>
+<clipPath id="c1"><rect class="w1" x="22" y="85.5" width="0" height="26"/></clipPath>
+<text class="t1" x="22" y="100" clip-path="url(#c1)" fill="#ebdbb2" textLength="461.7" lengthAdjust="spacingAndGlyphs">Zaid Marwat · CS @ UT Austin '27 · graduating May 2027</text>
+<clipPath id="c2"><rect class="w2" x="22" y="111.5" width="0" height="26"/></clipPath>
+<text class="t2" x="22" y="126" clip-path="url(#c2)" fill="#b8bb26" textLength="128.2" lengthAdjust="spacingAndGlyphs">$ cat focus.txt</text>
+<clipPath id="c3"><rect class="w3" x="22" y="137.5" width="0" height="26"/></clipPath>
+<text class="t3" x="22" y="152" clip-path="url(#c3)" fill="#ebdbb2" textLength="504.5" lengthAdjust="spacingAndGlyphs">virtualization · distributed systems · the layer underneath</text>
+<clipPath id="c4"><rect class="w4" x="22" y="163.5" width="0" height="26"/></clipPath>
+<text class="t4" x="22" y="178" clip-path="url(#c4)" fill="#b8bb26" textLength="94.1" lengthAdjust="spacingAndGlyphs">$ ls proof/</text>
+<clipPath id="c5"><rect class="w5" x="22" y="189.5" width="0" height="26"/></clipPath>
+<text class="t5" x="22" y="204" clip-path="url(#c5)" fill="#ebdbb2" textLength="513.0" lengthAdjust="spacingAndGlyphs">patent/US20240085134A1   podman/pr-27778   journal/published</text>
+<text x="22" y="230" fill="#b8bb26">$</text>
+<rect class="cur" x="39.1" y="217.5" width="8.6" height="14.5" fill="#fe8019"/>
+</svg>
