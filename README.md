@@ -1,7 +1,7 @@
 <img src="assets/terminal.svg" alt="Terminal: whoami — Zaid Marwat, CS at UT Austin, graduating May 2027. Focus: virtualization, distributed systems, the layer underneath. Proof: US patent US20240085134A1, Podman PR 27778, a published journal article." width="100%">
 
 <p>
-  <a href="https://zaidmarwat.pages.dev"><img alt="site" src="https://img.shields.io/badge/site-zaidmarwat.pages.dev-fe8019?style=flat-square&labelColor=282828"></a>
+  <a href="https://zaidmarwat.com"><img alt="site" src="https://img.shields.io/badge/site-zaidmarwat.pages.dev-fe8019?style=flat-square&labelColor=282828"></a>
   <a href="mailto:zaidratify123@gmail.com"><img alt="email" src="https://img.shields.io/badge/email-zaidratify123-b8bb26?style=flat-square&labelColor=282828"></a>
   <a href="https://patents.google.com/patent/US20240085134A1/en"><img alt="patent" src="https://img.shields.io/badge/US%20patent-US20240085134A1-d3869b?style=flat-square&labelColor=282828"></a>
   <img alt="grad" src="https://img.shields.io/badge/graduating-May%202027-83a598?style=flat-square&labelColor=282828">
