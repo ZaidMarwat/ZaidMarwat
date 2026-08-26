@@ -24,9 +24,10 @@
 
 ### The through-line
 
-The first program I wrote saved the last command's output into a variable called `$L` so I
-could hand it to the next one. It was not elegant. The habit stuck: when a system makes me
-do something tedious twice, I go build the thing that does it for me.
+The first program I wrote saved the last command's output into a variable called
+[`$L`](https://github.com/ZaidMarwat/L) so I could hand it to the next one. It was not
+elegant. The habit stuck: when a system makes me do something tedious twice, I go build the
+thing that does it for me.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{
@@ -39,6 +40,7 @@ flowchart LR
     D --> E["<b>Podman</b><br/>ancestor filter fix"]
     style A fill:#504945,stroke:#fe8019,color:#ebdbb2
     style E fill:#504945,stroke:#b8bb26,color:#ebdbb2
+    click A "https://github.com/ZaidMarwat/L" "the first program, rebuilt"
 ```
 
 Different scales, same instinct: make the layer underneath more trustworthy so the people
