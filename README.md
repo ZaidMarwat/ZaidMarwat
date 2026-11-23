@@ -3,7 +3,7 @@
 <p>
   <a href="https://zaidmarwat.com"><img alt="site" src="https://img.shields.io/badge/site-zaidmarwat.com-fe8019?style=flat-square&labelColor=282828"></a>
   <a href="mailto:zaidratify123@gmail.com"><img alt="email" src="https://img.shields.io/badge/email-zaidratify123-b8bb26?style=flat-square&labelColor=282828"></a>
-  <a href="https://patents.google.com/patent/US20240085134A1/en"><img alt="patent" src="https://img.shields.io/badge/US%20patent-US20240085134A1-d3869b?style=flat-square&labelColor=282828"></a>
+  <a href="https://patents.google.com/patent/US20240085134A1/en"><img alt="patent" src="https://img.shields.io/badge/US%20patent-US12038245B2-d3869b?style=flat-square&labelColor=282828"></a>
   <img alt="grad" src="https://img.shields.io/badge/graduating-May%202027-83a598?style=flat-square&labelColor=282828">
 </p>
 
@@ -48,6 +48,30 @@ people standing on it can move faster.
 
 ---
 
+### Current code portfolio
+
+**[C++ HTTP server](https://github.com/ZaidMarwat/cpp-http-server)**
+
+My C++17 HTTP/1.1 server separates nonblocking socket I/O from request handling. A poll-based event loop keeps idle connections out of the worker pool; workers only run handlers. The incremental parser handles Content-Length and chunked request bodies, with framing checks, configurable limits and deadlines. The current suite passes 146 checks, including real sockets and concurrent keep-alive clients.
+
+**[lsmkv](https://github.com/ZaidMarwat/lsmkv)**
+
+lsmkv is a C++17 embedded key-value store built around an LSM tree. It combines a checksummed write-ahead log, atomic write batches, a skiplist memtable, SSTables, background flush and leveled compaction. MVCC snapshots preserve a read view across compaction; Bloom filters and an LRU block cache reduce table work.
+
+**[minfer](https://github.com/ZaidMarwat/minfer)**
+
+minfer is a NumPy inference engine for a GPT-2-style model. The serving work is the focus: block-paged KV storage, iteration-level continuous batching, chunked prefill, recompute preemption and shared-prefix caching. It also exposes an OpenAI-style completions endpoint with SSE streaming and metrics.
+
+**[tracklet](https://github.com/ZaidMarwat/tracklet)**
+
+tracklet is a simulated 2D multi-target radar tracker in Python and NumPy. It combines constant-velocity and coordinated-turn EKFs in an interacting multiple-model filter, gates detections by Mahalanobis distance, and uses a custom Hungarian/JV solver for one-to-one association. M-of-N confirmation and miss-based deletion manage track lifetimes.
+
+**[C-GPT](https://github.com/ZaidMarwat/cgpt)**
+
+I directed an AI-assisted build of a small character-level GPT in C++. The assistant implemented the tensor operations, transformer, manual backpropagation, Adam, checkpointing and sampling. The current operation checks, covered finite-difference gradient checks and repeated-window overfit test pass. I would distinguish that implementation work from the code I have personally studied and can explain.
+
+---
+
 ### Selected work
 
 <details open>
@@ -70,7 +94,7 @@ Closes [#27743](https://github.com/podman-container-tools/podman/issues/27743) �
 </details>
 
 <details>
-<summary><b>📜 U.S. Patent US20240085134A1.</b> Thermal imaging built to help avoid friendly fire</summary>
+<summary><b>📜 Co-inventor, U.S. Patent 12,038,245.</b> Thermal imaging built to help avoid friendly fire</summary>
 
 <br/>
 
