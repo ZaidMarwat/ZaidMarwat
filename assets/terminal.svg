@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img"
-     aria-label="Terminal session. whoami: Zaid Marwat, CS at UT Austin, graduating May 2027. Focus: virtualization, distributed systems, the layer underneath. Proof: US patent US20240085134A1, Podman PR 27778, a published journal article.">
+     aria-label="Terminal session. whoami: Zaid Marwat, CS at UT Austin, graduating May 2027. Focus: virtualization, distributed systems, the layer underneath. Proof: US patent US12038245B2, Podman PR 27778, a published journal article.">
 <style>
   text { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
           font-size: 14.5px; white-space: pre; }
@@ -38,7 +38,7 @@
 <clipPath id="c4"><rect class="w4" x="22" y="163.5" width="0" height="26"/></clipPath>
 <text class="t4" x="22" y="178" clip-path="url(#c4)" fill="#b8bb26" textLength="94.1" lengthAdjust="spacingAndGlyphs">$ ls proof/</text>
 <clipPath id="c5"><rect class="w5" x="22" y="189.5" width="0" height="26"/></clipPath>
-<text class="t5" x="22" y="204" clip-path="url(#c5)" fill="#ebdbb2" textLength="513.0" lengthAdjust="spacingAndGlyphs">patent/US20240085134A1   podman/pr-27778   journal/published</text>
+<text class="t5" x="22" y="204" clip-path="url(#c5)" fill="#ebdbb2" textLength="513.0" lengthAdjust="spacingAndGlyphs">patent/US12038245B2   podman/pr-27778   journal/published</text>
 <text x="22" y="230" fill="#b8bb26">$</text>
 <rect class="cur" x="39.1" y="217.5" width="8.6" height="14.5" fill="#fe8019"/>
 </svg>
