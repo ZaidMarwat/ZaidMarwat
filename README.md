@@ -66,6 +66,30 @@ minfer is a NumPy inference engine for a GPT-2-style model. The serving work is 
 
 tracklet is a simulated 2D multi-target radar tracker in Python and NumPy. It combines constant-velocity and coordinated-turn EKFs in an interacting multiple-model filter, gates detections by Mahalanobis distance, and uses a custom Hungarian/JV solver for one-to-one association. M-of-N confirmation and miss-based deletion manage track lifetimes.
 
+**[arm-dynamics](https://github.com/ZaidMarwat/arm-dynamics)**
+
+arm-dynamics derives robot-arm kinematics and dynamics from first principles in NumPy: hand-derived 2-link Euler-Lagrange equations and a general n-link form, cross-checked against an O(n) recursive Newton-Euler implementation, with skew-symmetry and energy invariants enforced as tests. RK4 simulation closes the loop with PD+gravity and computed-torque controllers. 22 tests pass.
+
+**[cuda-llm-kernels](https://github.com/ZaidMarwat/cuda-llm-kernels)**
+
+cuda-llm-kernels is a set of CUDA kernels for LLM decode: shared-memory-tiled SGEMM, warp-per-row online softmax, Welford LayerNorm and split-KV decode attention, each framed against a roofline model. The kernel math is checked on the host against a double-precision reference through an emulated 32-lane shuffle, and the sources type-check with clang's CUDA front end; they have not run on a GPU yet, and the repo says exactly that.
+
+**[systolic-gemm-rtl](https://github.com/ZaidMarwat/systolic-gemm-rtl)**
+
+systolic-gemm-rtl is a parameterized int8 matrix-multiply accelerator in Verilog-2005: an N x N output-stationary systolic array that completes a job in K + 2N + 1 cycles, proven against an analytic cycle model. It is verified against a bit-exact golden model with constrained-random stimulus, 17 functional-coverage bins, RTL mutation testing (all 9 injected bugs caught) and cycle-exact checks on Yosys CXXRTL, plus a cocotb/Icarus suite in CI.
+
+**[httpfuzz](https://github.com/ZaidMarwat/httpfuzz)**
+
+httpfuzz is a fuzzer for HTTP/1.1 request parsers, aimed at the framing bugs behind request smuggling. It pairs a grammar of smuggling-relevant request shapes with SanitizerCoverage feedback and a differential oracle against an RFC 9112 reference model, and it found real framing bugs in my own C++ server. 37 tests pass locally.
+
+**[factor-backtest](https://github.com/ZaidMarwat/factor-backtest)**
+
+factor-backtest is a 100-year industry momentum backtest in Python: Moskowitz-Grinblatt momentum on Ken French's 49 industry portfolios (1926 to 2026), a point-in-time engine with a lookahead canary, trading costs on turnover, Newey-West t-statistics and block-bootstrap Sharpe confidence intervals. 23 tests pass.
+
+**[email-experiment-analysis](https://github.com/ZaidMarwat/email-experiment-analysis)**
+
+email-experiment-analysis analyzes a 64,000-customer randomized email experiment: schema validation, sample-ratio-mismatch and covariate-balance checks, Welch and delta-method intervals, Holm and Benjamini-Hochberg corrections, CUPED/Lin variance reduction and power analysis with A/A calibration. 28 tests pass.
+
 **[C-GPT](https://github.com/ZaidMarwat/cgpt)**
 
 I directed an AI-assisted build of a small character-level GPT in C++. The assistant implemented the tensor operations, transformer, manual backpropagation, Adam, checkpointing and sampling. The current operation checks, covered finite-difference gradient checks and repeated-window overfit test pass. I would distinguish that implementation work from the code I have personally studied and can explain.
